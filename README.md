@@ -1,12 +1,16 @@
-# my-vimrc
-this is a vimrc i made which u can use.
-## prequisites
+# Nvim Configuration file
 
-* vim
-* vundle
+## prequisites
+Neovim
+Any NerdFont mono
 
 ## setup
+```sh
+mkdir -p ~/.config/nvim && curl -fsSL https://raw.githubusercontent.com/uday-kalyan-s/my-init.nvim/main/init.lua -o ~/.config/nvim/init.lua
+```
 
-1. copy the .vimrc to ~/.vimrc
-1. run a :PluginInstall
-1. install needed language autocomplete servers from coc with
+## Usage
+1. Window switching is done through `shift+tab`
+2. Nerdtree is open on default. `F10` to toggle
+3. select Coc autocomplete through enter, cancel it through `Ctrl+e`
+4. Ctrl+S works to save on insert mode
