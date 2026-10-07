@@ -1,7 +1,7 @@
 # Nvim Configuration file
 
 ## prequisites
-Neovim
+Neovim\
 Any NerdFont mono
 
 ## setup
